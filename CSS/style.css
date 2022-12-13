@@ -1,0 +1,43 @@
+/*================================================*/
+/*Configurações gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: chartreuse;
+}
+
+body{
+    background: url(../imagens/3d-geometric-abstract-cuboid-wallpaper-background.jpg);
+}
+
+
+/*=====================================================*/
+/*Configurações do container*/
+
+#container{
+    margin: 50px auto;
+    width: 50%;
+    min-width: 200px;
+    text-align: center;
+    background-color: rgb(65, 61, 114);
+    opacity: 0.75;
+    border-radius: 25px;
+    border: 1px solid red;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+#menu{
+    display: inline-block;
+    text-align: left;
+}
+
+label{
+    margin: 5px;
+}
